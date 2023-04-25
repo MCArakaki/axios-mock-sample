@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+  /* overflow: auto; */
+}
+
+.ConditionContainer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.Title {
+  text-align: left;
+  margin: 5px 0 10px 10px;
+  /* margin-left: 30px; */
+  font-size: 20px;
+}
+
+.ErrorText {
+  font-size: 16px;
+  margin-left: 20px;
+  color: red;
+}
+
+.Input {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border: 2px solid #4682b4;
+  border-radius: 20px;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.EstimateButton {
+  background: #4682b4;
+  border: none;
+  border-radius: 50px;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  width: 300px;
+  max-width: 300px;
+  padding: 10px 25px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.TotalAmountContainer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px;
+  height: 40px;
+}
+
+.TotalAmountHeader {
+  border: 1px solid #4682b4;
+  background-color: #4682b4;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.TotalAmount {
+  width: 300px;
+  border: 1px solid #4682b4;
+  color: #4682b4;
+  font-weight: 700;
+  font-size: 40px;
+  padding: 20px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
